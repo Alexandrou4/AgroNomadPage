@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import DarkModeToggle from './DarkMode.jsx'
 
-import { MapPin, HeartPulse, Thermometer, Cpu, Radio, Battery, Sun, Moon } from "lucide-react";
+import { MapPin, HeartPulse, Thermometer, Cpu, Radio, Battery } from "lucide-react";
 
 import logoIg from "@/assets/logos/Logo_instagram.png";
 import imgc1s1 from "@/assets/agronomad/Presentation1/NomadC1S1.jpeg";
@@ -13,6 +14,7 @@ import imgc2s1 from "@/assets/agronomad/Presentation2/NomadC2S1.jpeg";
 import imgc2s2 from "@/assets/agronomad/Presentation2/NomadC2S2.jpeg";
 import imgc2s3 from "@/assets/agronomad/Presentation2/NomadC2S3.jpeg";
 import imgc2s4 from "@/assets/agronomad/Presentation2/NomadC2S4.jpeg";
+
 
 export default function AgroNomadLanding() {
   const imagesc1 = [imgc1s1, imgc1s2, imgc1s3, imgc1s4];
@@ -49,11 +51,7 @@ export default function AgroNomadLanding() {
             <a href="#features" className="hover:text-gray-600">Prestaciones</a>
             <a href="#tech" className="hover:text-gray-600">Tecnologia</a>
             <a href="#contact" className="hover:text-gray-600">Contacto</a>
-            <Button icon={<Sun />} className="text-lg px-6 py-6"
-            onClick={() => {
-              document.getElementById("how").scrollIntoView({behavior:"smooth"});
-            }}
-            ></Button>
+            <DarkModeToggle />
           </nav>
         </div>
       </header>
