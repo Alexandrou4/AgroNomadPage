@@ -95,6 +95,7 @@ export default function AgroNomadLanding() {
     return () => clearInterval(interval);
   }, [howCards.length]);
 
+  
   return (
     <div className="min-h-screen bg-white text-gray-900 dark:bg-black dark:text-white transform-gpu h-48 overflow-y-auto overflow-x-hidden scrollbar-gutter-auto scrollbar-thumb-light-green scrollbar-track-black/0 scroll-smooth scroll-pt-20">
       {/* NAVBAR */}

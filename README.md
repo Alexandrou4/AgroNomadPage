@@ -1,11 +1,21 @@
-# Web App/Page for AgroNomad 
+# AgroNomad Web
 
-## Pending Functionalities:
+Landing Page oficial del proyecto AgroNomad.  
+Sitio web: https://agro-nomad-page.vercel.app/  
 
-1 - Update the style / add animations.
+---
 
-2 - Add responsive design.
+### Características
 
-3 - Make a contact form.
+- Presentación del proyecto.
+- Descripción del ecosistema AgroNomad.
+- Información sobre AgroNeck, AgroBot y AgroServer.
+- Integración de redes sociales.
 
-4 - Create app web for Dashboard(login form/cookies/database with clients).
+---
+
+## Preview de la Pagina
+
+![PaginaWeb](PaginaPreview.png)    
+
+---
